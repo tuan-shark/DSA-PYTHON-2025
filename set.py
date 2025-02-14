@@ -46,3 +46,12 @@ append          add                    O(1)                         O(1)
 IN and NOT IN    IN And Not in         O(n)                         O(1)
 remove             remove              O(n)                         O(1)
 """
+print(1 in numbers)
+print(4 in numbers)
+numbers.remove(1)
+print(numbers)
+mylist = [1,2,3,4]
+mylist.append(5)
+print(1 in mylist)
+mylist.remove(5)
+print(mylist)
